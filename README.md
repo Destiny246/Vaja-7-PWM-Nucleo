@@ -24,6 +24,6 @@
 <ul>
   <h3>Komentar:</h3>
   <p>
-    Koda oddaja PWM signal, ki 
+    Koda oddaja PWM signal, ki se koračno niža dokler ne pride do 0, ko skoči nazaj na 90% moči.
   </p>
 </ul>
