@@ -13,15 +13,17 @@
     <h4>5.a:</h4>
       <li>sConfigOC.Pulse = 25;</li>
     <h4>5.c:</h4>
-      <h6>A</h6>
-        <li>Ob pritisku na modro tipko vklopimo zeleno LED, ki obstane vklopljena do naslednjega pritiska na modro tipko.</li> 
-    <h4>4.c:</h4>
-      <li>Pritisk natipko in prižig zelene LED ne vplivata na enakomerno urtipanje modre LED.</li> 
+      <h6>1</h6>
+        <li>Vrednost zanke htim1.Istance->CCR1 postane vrednost dutyCycle-a</li>
+      <h6>2</h6>
+        <li>Širina se poveča za 10%</li>
+      <h6>3</h6>
+        <li>Če pulz preseže 90%, se postavi nazaj na 10%</li>
 </ul>
 
 <ul>
   <h3>Komentar:</h3>
   <p>
-    Modra LED utripa na vsake 500ms, zelena LED pa se vklopi samo ob pritisku na mnodro tipko in se izklopi le ob ponovnem pritisku.
+    Koda oddaja PWM signal, ki 
   </p>
 </ul>
